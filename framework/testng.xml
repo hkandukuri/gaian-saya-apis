@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <suite name="Regression - Parallel" parallel="methods" thread-count="2" verbose="2"> -->
+<suite name="SAYA Webservices Testing" verbose="2" parallel="methods" thread-count="5">
+	<listeners>
+		<listener class-name="com.gaian.automation.reporting.ExtentTestNGIReporterListener" />
+	</listeners>
+	<test name="Regression">
+		<classes>
+			<class name="com.gaian.automation.webservices.DummyTest" />
+		</classes>
+	</test>
+</suite>     
