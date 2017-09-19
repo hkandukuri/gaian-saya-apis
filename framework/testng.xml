@@ -6,7 +6,7 @@
 	</listeners>
 	<test name="Regression">
 		<classes>
-			<class name="com.gaian.automation.webservices.DummyTest" />
+			<class name="com.gaian.automation.rest.DummyTest" />
 		</classes>
 	</test>
-</suite>     
+</suite>
